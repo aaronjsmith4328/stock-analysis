@@ -1,0 +1,11 @@
+- Add parsing tickers from an input file
+- Grab all the data as a "market" data type in yfinance to see if its faster
+- Add dividend rate to formula
+- add payout ratio
+- add comments
+- sphinx documentation
+- ruff lint
+- ty type checking
+- look at styling guidelines
+ - type annotations
+- look at overall performance
