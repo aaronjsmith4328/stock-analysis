@@ -1,5 +1,4 @@
-- Add parsing tickers from an input file
-- Grab all the data as a "market" data type in yfinance to see if its faster
+- Need to fix the issues of some financial documents not having similar nomenclature
 - Add dividend rate to formula
 - add payout ratio
 - add comments
