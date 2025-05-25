@@ -242,7 +242,14 @@ class Stocks:
     def getAggVals(self):
         return self.__agg_vals
 
-tickers = () # add stock tickers here
+tickers = [] # add stock tickers here
+with open('sp500.txt', 'r') as file:
+    content = file.read()
+    tickers = content.split("\n")
+
+print(tickers)
+exit()
+
 stock_list = [Stock(yf.Ticker(tick), tick) for tick in tickers]
 stocks = Stocks(stock_list)
 json_print = stocks.getJSON()
